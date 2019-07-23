@@ -1,0 +1,96 @@
+package pack1;
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+public class Myprogram_01 {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		driver = new ChromeDriver();
+//		driver.get("http://10.232.237.143:443/TestMeApp/login.htm");
+//		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+//		
+////		WebDriverWait wait= new WebDriverWait(driver,30);
+////		wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("SignIn")));
+//		
+//		driver.get("https://www.newtours.demoaut.com");
+//		
+//	    driver.manage().window().maximize();
+//	    
+//	    driver.findElement(By.linkText("REGISTER")).click();
+////		Thread.sleep(5000);
+////		
+////		Point p=new Point(300,500);
+////		driver.manage().window().setPosition(p);;
+////		
+////		
+////		Thread.sleep(5000);
+//	    driver.findElement(By.name("firstName")).sendKeys("Saikrishna");
+//	    driver.findElement(By.name("lastName")).sendKeys("Saikrishna");
+//	    driver.findElement(By.name("phone")).sendKeys("Saikrishna");
+//	    driver.findElement(By.id("userName")).sendKeys("Saikrishna@tst.com");
+//	    driver.findElement(By.name("address1")).sendKeys("Saikrishna");
+//	    driver.findElement(By.name("state")).sendKeys("Saikrishna");
+//	    driver.findElement(By.name("postalCode")).sendKeys("Saikrishna");
+//	  WebElement  Cntry = driver.findElement(By.name("country"));
+//
+//	Select Sel1 =new Select(Cntry);
+//	Sel1.selectByValue("92");
+////	Email.sendKeys("sai@gmail.com");
+////	PWrd.sendKeys("demo123");
+////	driver.findElement(By.linkText( "Reg")).click();
+//	
+//	
+
+//		
+//		
+//		
+//
+//		
+//		
+//		
+//		
+//		
+//		
+////		WebElement Sbmt=driver.  findElement(By.name("submit"));
+////		Uname.sendKeys("demo12345");
+////		Pswrd.sendKeys("demo12345");
+////		Sbmt.click();
+////		 
+//		
+		driver.close();
+		driver.quit();
+//		
+////		driver.close();
+//		
+////		int a=10;
+////		int sum;
+////		int b=20;
+////		sum=a+b;
+////		System.out.println("the total is:" +sum);
+////		
+////		driver.findElement(By.name("userName")).sendKeys("seshank");
+//////		
+////	}
+////
+////	private static WebElement sendKeys(String string) {
+////		// TODO Auto-generated method stub
+////		return null;
+////	}
+//
+//}
+//
+//	private static WebElement sendKeys(String string) {
+//		// TODO Auto-generated method stub
+//		return null;
